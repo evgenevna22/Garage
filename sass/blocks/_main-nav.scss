@@ -1,0 +1,41 @@
+.main-nav{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 17px;
+  margin-bottom: 210px;
+  @media(min-width: 375px){
+    margin-bottom: 260px;
+  }
+}
+.main-nav__logo-header{
+  width: 69px;
+  height: 31px;
+  object-fit: contain;
+}
+//.main-nav__burger{
+//  margin-right: 38px;
+//}
+.main-nav__toggle{
+  position: absolute;
+  left: 27%;
+  top: 26px;
+  background: transparent;
+  span{
+    display: block;
+    width: 15px;
+    height: 2px;
+    font-size: 0;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+    &:last-child{
+      
+    }
+  }
+  @media(min-width: 375px){
+    left: 30%;
+  }
+  @media(min-width: 768px){
+    left: 40%;
+  }
+}
